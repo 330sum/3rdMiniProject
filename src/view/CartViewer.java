@@ -35,7 +35,7 @@ public class CartViewer {
 
         if (flag) {
             System.out.println("\n ┌───────────────── 장바구니목록 ─────────────────┐  ");
-            System.out.println(" │      상품명       단가       수량     합계     │");
+            System.out.println(" │      상품명       단가       수량      합계     │");
             System.out.println(" │ -------------------------------------------- │");
 
             List<Item> itemList = cc.getCartList();
@@ -65,7 +65,7 @@ public class CartViewer {
                 sum += myCartItem.getPrice();
             }
 
-            System.out.println(" │  \t\t[ 장바구니 총 금액 : " + formatter.format(sum) + "원 ]\t\t│");
+            System.out.println(" │    \t\t[ 장바구니 총 금액 : " + formatter.format(sum) + "원 ]\t\t    │");
 
             System.out.println(" └──────────────────────────────────────────────┘  ");
 

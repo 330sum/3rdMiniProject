@@ -31,7 +31,7 @@ public class ItemController {
         checkPoint:
         while (true) {
             System.out.println("\n────────────────────────────────────────");
-            System.out.println("│\t\t제품명\t\t금액\t재고수량\t\t│");
+            System.out.println("│\t\t제품명\t\t금액\t\t재고수량\t\t│");
             System.out.println("────────────────────────────────────────");
             for (Snack snack : snackList) {
                 System.out.print("│\t\t");
@@ -76,7 +76,7 @@ public class ItemController {
         while (true) {
 
             System.out.println("\n────────────────────────────────────────");
-            System.out.println("│\t\t제품명\t\t금액\t재고수량\t\t│");
+            System.out.println("│\t\t제품명\t\t금액\t\t재고수량\t\t│");
             System.out.println("────────────────────────────────────────");
             for (Drink drink : drinkList) {
                 System.out.print("│\t\t");
@@ -122,7 +122,7 @@ public class ItemController {
         while (true) {
 
             System.out.println("\n────────────────────────────────────────");
-            System.out.println("│\t\t제품명\t\t금액\t재고수량\t\t│");
+            System.out.println("│\t\t제품명\t\t금액\t\t재고수량\t\t│");
             System.out.println("────────────────────────────────────────");
             for (CupNoodle noodle : cupNoodle) {
                 System.out.print("│\t\t");
@@ -171,7 +171,7 @@ public class ItemController {
 
 
             System.out.println("\n────────────────────────────────────────");
-            System.out.println("│\t\t제품명\t\t금액\t재고수량\t\t│");
+            System.out.println("│\t\t제품명\t\t금액\t\t재고수량\t\t│");
             System.out.println("────────────────────────────────────────");
             for (Liquor liquor : liquorList) {
                 System.out.print("│\t\t");
@@ -214,7 +214,7 @@ public class ItemController {
         while (true) {
 
             System.out.println("\n────────────────────────────────────────");
-            System.out.println("│\t\t제품명\t\t금액\t재고수량\t\t│");
+            System.out.println("│\t\t제품명\t\t금액\t\t재고수량\t\t│");
             System.out.println("────────────────────────────────────────");
             for (Smoke smoke : smokeList) {
                 System.out.print("│\t\t");
